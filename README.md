@@ -1,18 +1,5 @@
 # ML---Decision Tree, KNN-and-linear-regression-Algorithms-Project-
-In this assignment you will use sklearn to compare three machine learning methods on a regression task using learning curves.
-
-Setup:
-
-Choose a dataset for regression task. You can choose it from OpenML (see the slides about Regression Datasets). The dataset must have:
-
-    At least one nominal feature
-    At least 1000 examples
-
-Choose a dataset in which the number of examples are far more than the number of features.
-
-Avoid dataset with missing feature values.
-
-Handle nominal features as described in the A2.pptx slides.
+In this assignment I will use sklearn to compare three machine learning methods on a regression task using learning curves.
 
 Assignment Task:
 
@@ -24,7 +11,9 @@ Assignment Task:
 PROJECT
 
 A brief description of the dataset (what is the task, what are the features and the target)
+
 N/B; An API to the UCI Machine Learning Repository is required to fetch the dataset by running; !pip3 install -U ucimlrepo. Source - https://archive.ics.uci.edu/dataset/1/abalone
+
 Dataset is Abalone (ID: 183). Number of Instances: 4177, Number of Features: 8 (7 numerical and one nominal). 
 The dataset is about predicting the age (the target, computed by adding 1.5 to Rings column) of abalone from physical measurements. The age of abalone is determined by cutting the shell through the cone, staining it, and counting the number of rings through a microscope. Other measurements, which are easier to obtain, are used to predict the age. 
 
