@@ -1,4 +1,4 @@
-# ML---KNN-and-linear-regression-Algorithms-Project-
+# ML---Decision Tree, KNN-and-linear-regression-Algorithms-Project-
 In this assignment you will use sklearn to compare three machine learning methods on a regression task using learning curves.
 
 Setup:
